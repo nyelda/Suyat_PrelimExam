@@ -1,0 +1,8 @@
+---
+
+ - name: Make an motd
+   template:
+      src: motd.j2
+      dest: /etc/mod
+   tags:
+     - motd_config
